@@ -126,48 +126,17 @@ npm install
 
 你需要建立一個 `.env` 檔案來存放你的 API Key。
 
-**方法 A：使用指令建立（推薦）**
-
-**Mac / Linux：**
-```bash
-echo "GEMINI_API_KEY=你的API金鑰" > .env
-```
-
-**Windows（命令提示字元）：**
-```bash
-echo GEMINI_API_KEY=你的API金鑰 > .env
-```
-
-> ⚠️ 請將 `你的API金鑰` 替換成你在 Google AI Studio 取得的 API Key
-
-**方法 B：手動建立**
+> 📺 **詳細操作請參考課程影片**
 
 1. 在專案資料夾內建立一個新檔案，命名為 `.env`（注意前面有一個點）
-2. 用文字編輯器（如記事本、VS Code）打開這個檔案
-3. 輸入以下內容：
+2. 打開 `.env` 檔案，複製貼上以下內容：
 
 ```
-GEMINI_API_KEY=你的API金鑰
+GEMINI_API_KEY=在這裡貼上你的API金鑰
 ```
 
+3. 將 `在這裡貼上你的API金鑰` 替換成你在 Google AI Studio 取得的 API Key
 4. 儲存檔案
-
-> 💡 **提示**：`.env` 檔案是隱藏檔案，在檔案總管中可能看不到。這是正常的。
-
-### 步驟 4.1：（選用）設定 AI 模型
-
-預設使用 `gemini-2.5-flash` 模型。如果你想使用其他模型，可以在 `.env` 檔案中加入：
-
-```
-GEMINI_API_KEY=你的API金鑰
-GEMINI_MODEL=gemini-2.0-flash
-```
-
-可用的模型包括：
-- `gemini-2.5-flash`（預設，推薦）
-- `gemini-2.0-flash`
-- `gemini-1.5-flash`
-- `gemini-1.5-pro`
 
 ---
 
